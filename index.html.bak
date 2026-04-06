@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Retro Gaming Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎮 Retro Gaming Hub</h1>
+    <p>Your guide to classic and handheld retro gaming</p>
+  </header>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="consoles.html">Classic Consoles</a>
+    <a href="games.html">Top Games</a>
+    <a href="tips.html">Gaming Tips</a>
+  </nav>
+  <main>
+    <div class="hero">
+      Welcome to the ultimate guide to classic and handheld retro gaming.
+      Explore consoles, games, and tips from the golden era of gaming.
+    </div>
+    <div class="cards">
+      <a class="card" href="consoles.html">
+        <div class="card-icon">🕹</div>
+        <h3>Classic Consoles</h3>
+        <p>From Atari to GBA — hardware that defined generations.</p>
+      </a>
+      <a class="card" href="games.html">
+        <div class="card-icon">🎮</div>
+        <h3>Top Games</h3>
+        <p>The titles that shaped video game history forever.</p>
+      </a>
+      <a class="card" href="tips.html">
+        <div class="card-icon">💡</div>
+        <h3>Gaming Tips</h3>
+        <p>Emulators, save states, and modern retro setups.</p>
+      </a>
+    </div>
+  </main>
+  <footer>Retro Gaming Hub — Apache Static Site Lab</footer>
+</body>
+</html>
